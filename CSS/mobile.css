@@ -1,0 +1,261 @@
+@media only screen and (max-width: 480px) {
+    
+    .section-body-text h1{
+        font-size: 2.3rem !important;
+    }
+    h2{
+        font-size: 1.5rem !important;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .section-body{
+        flex-direction: column;
+    }
+    .header-logo{
+        width: 20vh;
+    }
+    .header-logo img{
+        height: 8vh;
+
+    }
+    .header-button{
+        display: none;
+    }
+    .section-text-description{
+        margin: 2% 5% 2% 1% ;
+    }
+    .section-body-text{
+    
+    
+        margin: 2% 2% 2% 5% ;
+    }
+    .section-body-text h1{
+        font-size: 2.8rem;
+    }
+    .section-image img{
+        margin: 2% 2% 2% 5% ;
+        width: 40vh;
+    }
+    #aboutusparagraphcontainer{
+        flex-direction: column;
+        
+    }
+    .aboutus-firstparagraph{
+        width: 40vh !important;
+        
+        
+    }
+    .about-us-secondparagraph{
+        width: 40vh !important;
+        text-align: center;
+    }
+    .about-us-imagecontainer{
+          display: none;
+    }
+    .education-div-container{
+        flex-direction: column;
+    }
+    .education{
+        width: 40vh;
+        margin-bottom: 4%;
+    }
+    .education h3{
+        font-size: 1rem;
+        margin: 2%;
+    }
+    .education p{
+        font-size: 0.7rem;
+    }
+    #work-experience-card-container{
+        flex-direction: column;
+        
+    }
+    #card1{
+        width: 40vh;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+    .item-car2 img{
+        height: 25vh !important;
+        width: 25vh !important;
+    }
+    .skills{
+        width: 23vh;
+    }
+    .skills h3{
+        font-size: 1rem;
+    }
+    .input-email{
+        max-width:35vh;
+        height: 6vh;
+    }
+    .footer-items-container{
+        flex-direction: column;
+    }
+    .footer-icons{
+        padding-left: 5%;
+    }
+    .footer-image img{
+        margin-left: 17%;
+        padding-left: 5%;
+        margin-bottom: 2%;
+    }
+    .footer-mail{
+        padding-left: 22%;
+    }
+    .social-links{
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+       margin-left: 5%;
+    }
+   
+}
+
+
+@media only screen and (max-width: 767px) {
+    h2{
+        font-size: 1.5rem !important;
+    }
+   
+   
+    .header-logo{
+        width: 25vh;
+    }
+    .header-menu ul{
+        margin-top: 5%;
+    }
+    .header-logo img{
+        height: 10vh;
+    }
+    .section-body{
+        flex-direction: column;
+    }
+    .section-image img{
+        margin: 2% 2% 2% 5% ;
+        
+    }
+    .section-body-text h1{
+        font-size: 3.2rem;
+    }
+    /* .section-text-description{
+        margin-right: 5%;
+        padding-right: 5%;
+    } */
+    .about-us-imagecontainer{
+        display: none;
+  }
+
+.header-button{
+    display: none;
+}
+
+.aboutus-firstparagraph p{
+         text-align: center;
+         margin-right: 2%;
+}
+.about-us-secondparagraph{
+    margin-top: 10%;
+    padding-top: 10%;
+    text-align: center;
+    margin-right: 2%;
+}
+.education{
+    margin-right: 2%;
+}
+.education h3{
+    font-size: 1.3rem;
+}
+.education p{
+    padding: 2%;
+    font-size: 0.6rem;
+}
+#work-experience-card-container{
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+#card1{
+   
+    margin-bottom: 4%;
+    text-align: center;
+}
+.input-email{
+    margin-top: 4%;
+    width: 60vh !important;
+  
+}
+
+
+
+.social-links{
+  
+    margin-top: 12%;
+    padding-top: 12%;
+
+}
+.social-links li{
+    font-size: 1.5rem;
+}
+
+.footer-mail{
+    font-size: 0.8rem;
+}
+.footer-icons{
+    margin: 0;
+    padding: 0%;
+} 
+.footer-image img{
+    height: 10vh;
+}
+
+
+}
+
+@media only screen and (max-width: 1023px){
+    .about-us-imagecontainer{
+        display: none;
+  }
+  .item-car2 img{
+    height: 15vh;
+    width: 15vh;
+  }
+  .section-body{
+    flex-direction: column;
+  }
+  .section-image img{
+    margin: auto;
+  }
+  .input-email{
+    width: 60vh !important;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+    .about-us-imagecontainer{
+        display: none;
+  }
+  .section-body{
+    flex-direction: column;
+  }
+  .section-image img{
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1500px){
+    /* .aboutus-firstparagraph{
+        width: 47vh;
+    }
+    .about-us-secondparagraph{
+        width: 47vh;
+    } */
+    .about-us-imagecontainer{
+        display: none;
+  }
+  
+  .section-image{
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+}
